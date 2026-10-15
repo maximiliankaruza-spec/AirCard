@@ -1,0 +1,35 @@
+{
+  "business_name": "Salon Lena",
+  "assistant_name": "Lena",
+  "timezone": "Europe/Berlin",
+  "address": "Musterstraße 12, 10115 Berlin",
+  "phone_handoff": null,
+  "parking": "Kostenlose Parkplätze im Hof hinter dem Haus.",
+  "payment": "Bar, EC-Karte und Apple Pay.",
+  "slot_step_minutes": 15,
+  "min_lead_minutes": 60,
+  "booking_horizon_days": 30,
+  "opening_hours": {
+    "monday": [],
+    "tuesday": [["09:00", "18:00"]],
+    "wednesday": [["09:00", "18:00"]],
+    "thursday": [["09:00", "20:00"]],
+    "friday": [["09:00", "18:00"]],
+    "saturday": [["09:00", "14:00"]],
+    "sunday": []
+  },
+  "closed_dates": ["2026-12-24", "2026-12-25", "2026-12-26", "2026-12-31", "2027-01-01"],
+  "staff": ["Lena", "Tom"],
+  "services": [
+    {"id": "damen_schnitt", "name": "Damenhaarschnitt", "aliases": ["damen", "damenschnitt", "haare schneiden damen"], "duration_min": 60, "price_eur": "ab 45"},
+    {"id": "herren_schnitt", "name": "Herrenhaarschnitt", "aliases": ["herren", "herrenschnitt", "männerhaarschnitt"], "duration_min": 30, "price_eur": "28"},
+    {"id": "kinder_schnitt", "name": "Kinderhaarschnitt (bis 12 Jahre)", "aliases": ["kinder", "kind"], "duration_min": 30, "price_eur": "18"},
+    {"id": "faerben", "name": "Färben inkl. Schnitt", "aliases": ["färben", "farbe", "ansatz", "tönen"], "duration_min": 120, "price_eur": "ab 85"},
+    {"id": "straehnen", "name": "Strähnen / Balayage", "aliases": ["strähnchen", "balayage", "highlights"], "duration_min": 150, "price_eur": "ab 120"},
+    {"id": "bart", "name": "Bartpflege", "aliases": ["bart", "bart trimmen"], "duration_min": 20, "price_eur": "15"}
+  ],
+  "faq": [
+    {"q": "Kann ich ohne Termin kommen?", "a": "Gern, aber mit Termin ist keine Wartezeit garantiert."},
+    {"q": "Wie storniere ich?", "a": "Bitte bis 24 Stunden vorher absagen, telefonisch bei mir."}
+  ]
+}
